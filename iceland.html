@@ -3,28 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <title>Iceland</title>
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
       <h1>Iceland</h1>
-      <figure>
-        <img src="iceland-horses.jpg" alt="Icelandic Horses" />
-      </figure>
-    </header>
 
-    <nav>
-      <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#people-and-society">People and Society</a></li>
-        <li><a href="#communications">Communications</a></li>
-        <li><a href="#transportation">Transportation</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#people-and-society">People and Society</a></li>
+          <li><a href="#communications">Communications</a></li>
+          <li><a href="#transportation">Transportation</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
       <section id="introduction">
         <h2>Introduction</h2>
+
+        <figure>
+          <img src="images/iceland-horses.jpg" alt="Icelandic Horses" />
+
+          <figcaption>Iceland's own breed of horse, called the Icelandic horse.</figcaption>
+        </figure>
 
         <p>Settled by Norwegian and Celtic (Scottish and Irish) immigrants during the late 9th and 10th centuries <abbr title="Anno Domini">A.D.</abbr>, Iceland boasts the world's oldest functioning legislative assembly, the Althingi, established in 930. Independent for over 300 years, Iceland was subsequently ruled by Norway and Denmark.</p>
 
@@ -38,153 +42,177 @@
       <section id="people-and-society">
         <h2>People and Society</h2>
 
-        <h3>Population</h3>
+        <article>
+          <h3>Population</h3>
 
-        <p>A <time datetime="2021-07">July 2021</time> estimate notes a population of 354,234.</p>
+          <p>A <time datetime="2021-07">July 2021</time> estimate notes a population of 354,234.</p>
 
-        <p>In comparison to the rest of the world, Iceland comes 177th in terms of population.</p>
+          <p>In comparison to the rest of the world, Iceland comes 177th in terms of population.</p>
+        </article>
 
-        <h3>Languages</h3>
+        <div id="languages">
+          <article>
+            <h3>Languages</h3>
 
-        <ul>
-          <li>Icelandic</li>
-          <li>English</li>
-          <li>Nordic languages</li>
-          <li>German</li>
-        </ul>
+            <ul>
+              <li>Icelandic</li>
+              <li>English</li>
+              <li>Nordic languages</li>
+              <li>German</li>
+            </ul>
+          </article>
+        </div>
 
-        <h3>Age Structure</h3>
+        <article>
+          <div id="age-structure">
+            <h3>Age Structure</h3>
 
-        <table>
-          <thead>
-            <tr>
-              <th>Age Group</th>
-              <th><abbr title="Percent">Pct.</abbr></th>
-            </tr>
-          </thead>
+            <table>
+              <thead>
+                <tr>
+                  <th>Age Group (<abbr title="years">yrs.</abbr>)</th>
+                  <th><abbr title="Percent">Pct.</abbr></th>
+                </tr>
+              </thead>
 
-          <tbody>
-            <tr>
-              <td>0-14 <abbr title="years">yrs.</abbr></td>
-              <td>20.31%</td>
-            </tr>
+              <tbody>
+                <tr>
+                  <td>0-14</td>
+                  <td>20.31%</td>
+                </tr>
 
-            <tr>
-              <td>15-24 yrs.</td>
-              <td>12.85%</td>
-            </tr>
+                <tr>
+                  <td>15-24</td>
+                  <td>12.85%</td>
+                </tr>
 
-            <tr>
-              <td>25-54 yrs.</td>
-              <td>39.44%</td>
-            </tr>
+                <tr>
+                  <td>25-54</td>
+                  <td>39.44%</td>
+                </tr>
 
-            <tr>
-              <td>55-64 yrs.</td>
-              <td>11.94%</td>
-            </tr>
+                <tr>
+                  <td>55-64</td>
+                  <td>11.94%</td>
+                </tr>
 
-            <tr>
-              <td>65 yrs. and over</td>
-              <td>15.47%</td>
-            </tr>
+                <tr>
+                  <td>65 & over</td>
+                  <td>15.47%</td>
+                </tr>
 
-            <tr>
-              <td colspan="2">* <time datetime="2020">2020</time> <abbr title="estimate">est.</abbr></td>
-            </tr>
-          </tbody>
-        </table>
+                <tr>
+                  <td colspan="2">* <time datetime="2020">2020</time> <abbr title="estimate">est.</abbr></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-        <figure>
-          <img src="iceland-population-pyramid.png" alt="Population Pyramid for Iceland" />
+          <aside>
+            <figure>
+              <img src="images/iceland-population-pyramid.png" alt="Population Pyramid for Iceland" />
 
-          <figcaption>Source: <abbr title="Central Intelligence Agency">CIA</abbr> World Factbook</figcaption>
-        </figure>
+              <figcaption>Source: <abbr title="Central Intelligence Agency">CIA</abbr> World Factbook</figcaption>
+            </figure>
+          </aside>
+        </article>
       </section>
 
       <section id="communications">
         <h2>Communications</h2>
 
-        <h3>Telephones - Fixed Lines</h3>
+        <article>
+          <h3>Telephones - Fixed Lines</h3>
 
-        <p>Iceland has a total of 128,597 fixed line telephone subscriptions.</p>
+          <p>Iceland has a total of 128,597 fixed line telephone subscriptions.</p>
 
-        <p>A <time datetime="2019">2019</time> estimate notes an average of 37.04 subscriptions per 100 inhabitants.</p>
+          <p>A <time datetime="2019">2019</time> estimate notes an average of 37.04 subscriptions per 100 inhabitants.</p>
 
-        <p>In comparison to the rest of the world, Iceland comes 132nd in terms of total number of fixed line telephones in use.</p>
+          <p>In comparison to the rest of the world, Iceland comes 132nd in terms of total number of fixed line telephones in use.</p>
+        </article>
 
-        <h3>Telephones - Mobile Cellular</h3>
+        <article>
+          <h3>Telephones - Mobile Cellular</h3>
 
-        <p>Iceland has a total of 423,390 mobile cellular telephone subscriptions.</p>
+          <p>Iceland has a total of 423,390 mobile cellular telephone subscriptions.</p>
 
-        <p>A <time datetime="2019">2019</time> estimate notes an average of 121.95 subscriptions per 100 inhabitants.</p>
+          <p>A <time datetime="2019">2019</time> estimate notes an average of 121.95 subscriptions per 100 inhabitants.</p>
 
-        <p>In comparison to the rest of the world, Iceland comes 174th in terms of total number of mobile cellular telephone subscribers.</p>
+          <p>In comparison to the rest of the world, Iceland comes 174th in terms of total number of mobile cellular telephone subscribers.</p>
+        </article>
 
-        <h3>Internet Country Code</h3>
+        <article>
+          <h3>Internet Country Code</h3>
 
-        <p>Iceland's country code is <code>.is</code>.</p>
+          <p>Iceland's country code is <code>.is</code>.</p>
 
-        <p>The country's official website can be found at: <a href="https://www.government.is/">www.government.is</a>.</p>
+          <p>The country's official website can be found at: <a href="https://www.government.is/">www.government.is</a>.</p>
+        </article>
       </section>
 
       <section id="transportation">
         <h2>Transportation</h2>
 
-        <h3>Airports</h3>
+        <article>
+          <h3>Airports</h3>
 
-        <p>As of <time datetime="2013">2013</time>, Iceland has a total of 96 airports.</p>
+          <p>As of <time datetime="2013">2013</time>, Iceland has a total of 96 airports.</p>
 
-        <p>In comparison to the rest of the world, Iceland comes 59th in terms of number of airports.</p>
+          <p>In comparison to the rest of the world, Iceland comes 59th in terms of number of airports.</p>
+        </article>
 
-        <h3>Roadways</h3>
+        <article>
+          <h3>Roadways</h3>
 
-        <table>
-          <thead>
-            <tr>
-              <th>Type</th>
-              <th>Distance</th>
-            </tr>
-          </thead>
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Distance (<abbr title="kilometers">km.</abbr>)</th>
+              </tr>
+            </thead>
 
-          <tbody>
-            <tr>
-              <td>Paved/oiled gravel</td>
-              <td>5,647 <abbr title="kilometers">km.</abbr></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Paved/oiled gravel</td>
+                <td>5,647</td>
+              </tr>
 
-            <tr>
-              <td>Unpaved</td>
-              <td>7,251 km.</td>
-            </tr>
+              <tr>
+                <td>Unpaved</td>
+                <td>7,251</td>
+              </tr>
 
-            <tr>
-              <td>Total</td>
-              <td>12,898 km.</td>
-            </tr>
+              <tr>
+                <td>Total</td>
+                <td>12,898</td>
+              </tr>
 
-            <tr>
-              <td colspan="2">* <time datetime="2012">2012</time> est.</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td colspan="2">* <time datetime="2012">2012</time> est.</td>
+              </tr>
+            </tbody>
+          </table>
 
-        <p>In comparison to the rest of the world, Iceland comes 129th in terms of total length of roadways.</p>
+          <p>In comparison to the rest of the world, Iceland comes 129th in terms of total length of roadways.</p>
+        </article>
 
-        <h3>Ports and Terminals</h3>
+        <article>
+          <h3>Ports and Terminals</h3>
 
-        <h4>Major Seaports</h4>
+          <h4>Major Seaports</h4>
 
-        <ul>
-          <li>Grundartangi</li>
-          <li>Hafnarfjordur</li>
-          <li>Reykjavik</li>
-        </ul>
+          <ul>
+            <li>Grundartangi</li>
+            <li>Hafnarfjordur</li>
+            <li>Reykjavik</li>
+          </ul>
+        </article>
       </section>
     </main>
 
     <footer>
-      <p><small>Source: <a href="https://www.cia.gov/the-world-factbook/countries/">CIA World Factbook</a></small></p>
+      <p>Source: <a href="https://www.cia.gov/the-world-factbook/countries/">CIA World Factbook</a></p>
     </footer>
   </body>
 </html>
