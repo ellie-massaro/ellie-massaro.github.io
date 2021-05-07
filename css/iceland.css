@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  margin-top: 72px;
+  text-align: center;
+}
+
+nav {
+  background-color: #83C5BE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  background-color: #EDF6F9;
+  padding: 8px;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4A4A4A;
+}
+
+nav a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "introduction    people-and-society"
+    "communications  transportation";
+  grid-gap: 20px;
+}
+
+section {
+  background-color: #E8E8E8;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 48px;
+}
+
+h2 {
+  color: #006D77;
+  border-bottom: 1px dotted #006D77;
+  background-color: #FFF;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Bitter", serif;
+}
+
+a,
+a:link {
+  color: #006D77;
+}
+
+a:visited,
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #006D77;
+}
+
+main,
+article,
+#introduction p,
+#introduction figure {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+article {
+  padding-bottom: 10px;
+}
+
+figcaption,
+footer {
+  font-size: 14px;
+}
+
+figure {
+  margin-left: 0px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #000;
+}
+
+#languages {
+  float: left;
+}
+
+#age-structure {
+  float: right;
+  margin-top: -14px;
+  margin-right: 50px;
+  padding-bottom: 30px;
+}
